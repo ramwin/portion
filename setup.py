@@ -35,6 +35,7 @@ setup(
     keywords="interval operation range math",
     packages=find_packages(include=["portion"]),
     python_requires="~= 3.8",
+    data_files=["portion/py.typed"],
     install_requires=[
         "sortedcontainers ~= 2.2",
     ],
